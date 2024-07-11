@@ -1,0 +1,304 @@
+*{
+    font-family: Wittgenstein;
+    margin: 0px;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body{
+    display: iflex;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(21,144,241,1) 100%);
+}
+
+
+.main-menu{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 50px;
+    
+}
+
+.logo > img{
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.nav > ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;
+}
+
+a{
+    color: #0c0805;;
+}
+
+
+
+.presentación{
+    display: flex;
+    color:#0c0805;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+.contenedor-imagen > img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 5px 10px 2px #0c0805;
+}
+
+.foto-perfil{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+.avatar{
+    padding-left: 32%;
+    width: 100%;
+    top: 45%;
+    position: relative;
+}
+.avatar > img{
+    width: 20%;
+    border-radius: 50%;
+    position:absolute;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.Redes-sociales{
+    padding-left: 31%;
+    top: 65%;
+    width: 20%;
+    height: 10%;
+    position: relative;
+}
+
+.Redes-sociales > a > i{
+    margin: 5px;
+    padding: 20px;
+    border-radius: 50%;
+    
+    
+}
+
+
+.presentación-personal{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    top: 400px;
+    right: 15%;
+    
+}
+
+.presentación-personal > h1{
+    color: #0c0805;
+    padding: 5px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.presentación-personal > h2{
+    color: #0c0805;
+    padding: 10px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.presentación-personal > p{
+    color:#0c0805;
+    text-align: justify;
+    width: 100%;
+    height: 50%;
+    font-size: 19px;
+}
+
+
+.Formação{
+    padding-top:40px ;
+    width: 100%;
+    height: 150px;
+    color:#0c0805;
+    background: ;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.Formação > h2{
+ font-size: 30px;
+ padding-left: 30%;
+}
+
+.estudio {
+    padding-left: 30%;
+}
+
+.experiencia{
+    padding-top:40px ;
+    width: 100%;
+    height: 200px;
+    color: #0c0805;
+}
+
+.experiencia >h2{
+    padding: 5px;
+    padding-left: 30%;
+}
+.empresa{
+    padding: 10px;
+    padding-left: 30%;
+}
+
+
+.empresa1{
+    padding: 10px;
+    padding-left: 30%;
+}
+
+.proyectos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    color:#0c0805;
+}
+
+
+.card{
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.card > h2{
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card > p{
+    height: 30%;
+    text-align: center;
+}
+
+.botones > a{
+    margin: 5px;
+    padding: 10px;
+    border-style:inset;
+}
+
+
+.card1{
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.card1 > h2{
+    padding: 10px;
+    
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card1 > p{
+    height: 30%;
+    text-align: center;
+}
+
+.card2{
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: 2px 5px 10px 5px #0c0805;
+}
+
+.card2 > h2{
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card2 > p{
+    height: 30%;
+    text-align: center;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #FAFAFA;
+    background-color: black;
+    padding: 40px 0px 40px 0px;
+}
+
+.contacto{
+margin-right: 20px;
+}
+
+.contacto > h2{
+    font-size: 40px;
+
+}
+
+.contacto > p{
+    padding: 10px;
+}
+
+.Redes-sociales2{
+    width: 100%;
+    height: 40px;
+    align-items: stretch;
+    padding-top: 40px;
+}
+
+.Redes-sociales2 > a{
+    padding: 10px;
+    
+}
+
+.Redes-sociales2 > a > i{
+    font-size: 40px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
