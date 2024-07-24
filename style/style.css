@@ -186,12 +186,17 @@ a{
     text-align: center;
     padding-top: 40px;
     color:#0c0805;
+    overflow-x: scroll;
 }
 
+.proyectos > div {
+    width: 80%;
+    margin: 15px;
+}
 
 .card{
     display: inline-block;
-    width: 20%;
+    width: 18rem;
     height: 90%;
     margin: 10px;
     box-shadow: 2px 5px 10px 5px #0c0805;
@@ -215,52 +220,6 @@ a{
     padding: 10px;
     border-style:inset;
 }
-
-
-.card1{
-    display: inline-block;
-    width: 20%;
-    height: 90%;
-    margin: 10px;
-    box-shadow: 2px 5px 10px 5px #0c0805;
-}
-
-.card1 > h2{
-    padding: 10px;
-    
-}
-
-.card-img {
-    width: 100%;
-}
-
-.card1 > p{
-    height: 30%;
-    text-align: center;
-}
-
-.card2{
-    display: inline-block;
-    width: 20%;
-    height: 90%;
-    margin: 10px;
-    box-shadow: 2px 5px 10px 5px #0c0805;
-}
-
-.card2 > h2{
-    padding: 10px;
-}
-
-.card-img {
-    width: 100%;
-}
-
-.card2 > p{
-    height: 30%;
-    text-align: center;
-
-}
-
 
 footer{
     display: flex;
@@ -301,4 +260,16 @@ margin-right: 20px;
     padding: 20px;
     border-radius: 50%;
     background-color: antiquewhite;
+}
+
+::-webkit-scrollbar{
+    background-color: #122633;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #22648E;
+    width: 5px;
+    
+
 }

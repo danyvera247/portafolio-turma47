@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="/style/class.css">
     <title>Document</title>
 </head>
-<body>
+
     <body>
         <div class="container">
     <!--Logo y navegación-->
@@ -81,42 +82,11 @@
        <hr color="h1">
         <!--Cards-->
     <section class="proyectos">
-        <div class="card">
-            <img class="card-img" src="/style/img/images.jpeg" alt="">
-            <h2 class="card-titulo">Titulo de projeto</h2>
-            <p class="card-parrafo">
-                 voluptate ullam maiores facilis quo necessitatibus?
-            </p>
-            <div class="botones">
-                <a href="">REPOSITORIO</a>
-                <a href="">VER DEMO</a>
-            </div>
-        </div>
-        <div class="card1">
-            <img class="card-img" src="/style/img/images.jpeg" alt="">
-            <h2 class="card-titulo">Titulo de projeto</h2>
-            <p class="card-parrafo">
-                L iusto ut voluptas voluptate ullam maiores facilis quo necessitatibus?
-            </p>
-            <div class="botones">
-                <a href="">REPOSITORIO</a>
-                <a href="">VER DEMO</a>
-            </div>
-        </div>
-        <div class="card2">
-            <img class="card-img" src="/style/img/images.jpeg" alt="">
-            <h2 class="card-titulo">Titulo de projeto</h2>
-            <p class="card-parrafo">
-                  tenetur inventore dolores, dignissimos iusto ut voluptas voluptate ullam maiores facilis quo necessitatibus?
-            </p>
-            <div class="botones">
-                <a href="">REPOSITORIO</a>
-                <a href="">VER DEMO</a>
-            </div>
-        </div>
+        
+    </section >
+
     
-    </div>
-        </main>
+</main>
     </div>
         <footer>
            <div class="contacto">
@@ -146,17 +116,20 @@
             </div>
     
            </div>
-            <form action="processa.php">
-                NOME: <br><input type="text" name="nome" maxlength="50"><br>
-                EMAIL: <br><input type="email" name="email"><br>
-                ASSUNTO: <br><input type="asunto" name="asunto"><br>
-                MENSAGEM:<br> 
-                <textarea cols="50" rows="8"></textarea><br>
-                <input type="submit" value="Enviar">
+            <form id="form">
+                <div>NOME: <br><input id="form-nome" type="text" name="nome" maxlength="50" placeholder="nome"><br></div>
+                <div>EMAIL: <br><input id="form-email" type="email" name="email" placeholder="seuemail@domain.com"><br></div>
+                <div>CONTATO: <br><input id="form-contacto" type="tel" name="contacto" placeholder="numero"><br></div>
+                <div>MENSSAGEM:<br> 
+                    <textarea id="form-mensaje" name="mensaje" cols="50" rows="8" placeholder="Descrever motivo (opcional)"></textarea><br></div>
+                      <button type="submit" id="enviar" disabled>Enviar</button>
     
             </form>
     
         </footer>
+
+
+        <script src="/JavaScript/validandoformulario.js" ></script>
+        <script src="/JavaScript/Api.js" ></script>
     </body>
-</body>
 </html>
